@@ -33,6 +33,11 @@ custom_minimum_size = Vector2(0, 400)
 layout_mode = 2
 size_flags_vertical = 3
 
+[node name="QuestionImage" type="TextureRect" parent="Control/QuestionHolder/Panel"]
+layout_mode = 0
+offset_right = 40.0
+offset_bottom = 40.0
+
 [node name="ButtonHolder" type="VBoxContainer" parent="Control"]
 layout_mode = 1
 anchors_preset = 12
