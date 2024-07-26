@@ -16,6 +16,22 @@ anchors_preset = 10
 anchor_right = 1.0
 offset_bottom = 656.0
 grow_horizontal = 2
+theme_override_constants/separation = 25
+
+[node name="QuestionLabel" type="Label" parent="Control/QuestionHolder"]
+custom_minimum_size = Vector2(0, 100)
+layout_mode = 2
+theme_override_font_sizes/font_size = 50
+text = "Pergunta
+"
+horizontal_alignment = 1
+vertical_alignment = 1
+autowrap_mode = 2
+
+[node name="Panel" type="Panel" parent="Control/QuestionHolder"]
+custom_minimum_size = Vector2(0, 400)
+layout_mode = 2
+size_flags_vertical = 3
 
 [node name="ButtonHolder" type="VBoxContainer" parent="Control"]
 layout_mode = 1
@@ -24,5 +40,23 @@ anchor_top = 1.0
 anchor_right = 1.0
 anchor_bottom = 1.0
 offset_top = -537.0
+offset_bottom = -54.0
 grow_horizontal = 2
 grow_vertical = 0
+theme_override_constants/separation = 25
+
+[node name="Button" type="Button" parent="Control/ButtonHolder"]
+layout_mode = 2
+size_flags_vertical = 3
+
+[node name="Button2" type="Button" parent="Control/ButtonHolder"]
+layout_mode = 2
+size_flags_vertical = 3
+
+[node name="Button3" type="Button" parent="Control/ButtonHolder"]
+layout_mode = 2
+size_flags_vertical = 3
+
+[node name="Button4" type="Button" parent="Control/ButtonHolder"]
+layout_mode = 2
+size_flags_vertical = 3
