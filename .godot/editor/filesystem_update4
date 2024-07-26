@@ -1,2 +1,3 @@
 res://scenes/main.tscn
-res://scripts/QuizResource.gd
+res://scripts/themes.gd
+res://resources/themes/locations_brazil.tres

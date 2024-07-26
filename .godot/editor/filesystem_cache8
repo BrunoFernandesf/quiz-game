@@ -1,8 +1,9 @@
 ea4bc82a6ad023ab7ee23ee620429895
-::res://::1722011016
+::res://::1722016525
 icon.svg::CompressedTexture2D::5737035526554738474::1721999800::1721999806::1::::<><>::
 README.md::TextFile::-1::1722002851::0::1::::<><>::
-::res://resources/::1722002692
+::res://resources/::1722016525
+::res://resources/questions/::1722016525
 chapada_diamantina-BA.tres::Resource/QuizQuestion::6740004531230423256::1722002510::0::1::::<><>::res://scripts/QuizResource.gd
 chapada_dos_veadeiros-GO.tres::Resource/QuizQuestion::6812811176123759528::1722002434::0::1::::<><>::res://scripts/QuizResource.gd
 fernando_de_noronha-PB.tres::Resource/QuizQuestion::2039017097797832621::1722002534::0::1::::<><>::res://scripts/QuizResource.gd
@@ -13,7 +14,8 @@ maceio-AL.tres::Resource/QuizQuestion::5337185477509271466::1722002661::0::1::::
 peninsula_de_marau-BA.tres::Resource/QuizQuestion::6449096817472306522::1722002637::0::1::::<><>::res://scripts/QuizResource.gd
 pirenopolis-GO.tres::Resource/QuizQuestion::5135287272394753989::1722002488::0::1::::<><>::res://scripts/QuizResource.gd
 praia_da_pipa-RN.tres::Resource/QuizQuestion::8394080090151447698::1722002692::0::1::::<><>::res://scripts/QuizResource.gd
-::res://scenes/::1722002709
-main.tscn::PackedScene::2803396151120820955::1722002709::0::1::::<><>::
-::res://scripts/::1722002269
-QuizResource.gd::GDScript::-1::1722002269::0::1::::QuizQuestion<>Resource<>::
+::res://scenes/::1722016501
+main.tscn::PackedScene::2803396151120820955::1722016501::0::1::::<><>::
+::res://scripts/::1722016501
+QuizResource.gd::GDScript::-1::1722011054::0::1::::QuizQuestion<>Resource<>::
+themes.gd::GDScript::-1::1722016501::0::1::::QuizTheme<>Resource<>::
