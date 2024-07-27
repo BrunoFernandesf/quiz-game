@@ -1,9 +1,11 @@
-[gd_resource type="Resource" script_class="QuizQuestion" load_steps=2 format=3 uid="uid://cx48xg2o2nkp3"]
+[gd_resource type="Resource" script_class="QuizQuestion" load_steps=3 format=3 uid="uid://cx48xg2o2nkp3"]
 
-[ext_resource type="Script" path="res://scripts/QuizResource.gd" id="1_gatu7"]
+[ext_resource type="Texture2D" uid="uid://btoydp8e6n426" path="res://assets/img_peninsula_marau.jpg" id="1_fwh3n"]
+[ext_resource type="Script" path="res://scripts/quiz_resource.gd" id="2_sh03y"]
 
 [resource]
-script = ExtResource("1_gatu7")
-question_info = ""
-question_amount = Array[String]([])
-question_correct = ""
+script = ExtResource("2_sh03y")
+question_info = "Where is this place"
+question_image = ExtResource("1_fwh3n")
+question_amount = Array[String](["Correta", "Errada", "Errada", "Errada"])
+question_correct = "Correta"

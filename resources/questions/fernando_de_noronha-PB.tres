@@ -1,9 +1,11 @@
-[gd_resource type="Resource" script_class="QuizQuestion" load_steps=2 format=3 uid="uid://4bykwvschhfp"]
+[gd_resource type="Resource" script_class="QuizQuestion" load_steps=3 format=3 uid="uid://4bykwvschhfp"]
 
-[ext_resource type="Script" path="res://scripts/QuizResource.gd" id="1_shn3t"]
+[ext_resource type="Texture2D" uid="uid://1vkfr4i3ahbk" path="res://assets/img_fernando_noronha.jpg" id="1_qbbph"]
+[ext_resource type="Script" path="res://scripts/quiz_resource.gd" id="2_ca6ua"]
 
 [resource]
-script = ExtResource("1_shn3t")
-question_info = ""
-question_amount = Array[String]([])
-question_correct = ""
+script = ExtResource("2_ca6ua")
+question_info = "Where is this place"
+question_image = ExtResource("1_qbbph")
+question_amount = Array[String](["Errada", "Correta", "Errada", "Errada"])
+question_correct = "Correta"

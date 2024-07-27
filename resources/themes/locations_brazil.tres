@@ -1,17 +1,17 @@
-[gd_resource type="Resource" script_class="QuizTheme" load_steps=12 format=3 uid="uid://dy07hvpxkapre"]
+[gd_resource type="Resource" script_class="QuizTheme" load_steps=12 format=3 uid="uid://s27b16pfh332"]
 
+[ext_resource type="Resource" uid="uid://c3a55iyyt6gp1" path="res://resources/questions/chapada_diamantina-BA.tres" id="1_0lnh0"]
 [ext_resource type="Script" path="res://scripts/themes.gd" id="1_lr2o3"]
-[ext_resource type="Resource" uid="uid://c3a55iyyt6gp1" path="res://resources/questions/chapada_diamantina-BA.tres" id="2_qrd8q"]
-[ext_resource type="Resource" uid="uid://c4cgafo8t3x2g" path="res://resources/questions/chapada_dos_veadeiros-GO.tres" id="3_vym02"]
-[ext_resource type="Resource" uid="uid://4bykwvschhfp" path="res://resources/questions/fernando_de_noronha-PB.tres" id="4_aln7x"]
-[ext_resource type="Resource" uid="uid://cuail4ohwhwqb" path="res://resources/questions/jericoacoara-CE.tres" id="5_cxqq6"]
-[ext_resource type="Resource" uid="uid://d2212ugtytwfm" path="res://resources/questions/joao_pessoa-PB.tres" id="6_gsqbe"]
-[ext_resource type="Resource" uid="uid://dwyope08xokak" path="res://resources/questions/local_bonito-MS.tres" id="7_cd2c1"]
-[ext_resource type="Resource" uid="uid://cibmwu12ughne" path="res://resources/questions/maceio-AL.tres" id="8_2aosf"]
-[ext_resource type="Resource" uid="uid://cx48xg2o2nkp3" path="res://resources/questions/peninsula_de_marau-BA.tres" id="9_fi0w8"]
-[ext_resource type="Resource" uid="uid://cfftowmaouhub" path="res://resources/questions/pirenopolis-GO.tres" id="10_k0ec0"]
-[ext_resource type="Resource" uid="uid://drufjjh8jgg71" path="res://resources/questions/praia_da_pipa-RN.tres" id="11_u7qro"]
+[ext_resource type="Resource" uid="uid://c4cgafo8t3x2g" path="res://resources/questions/chapada_dos_veadeiros-GO.tres" id="2_kr0qm"]
+[ext_resource type="Resource" uid="uid://4bykwvschhfp" path="res://resources/questions/fernando_de_noronha-PB.tres" id="3_es7th"]
+[ext_resource type="Resource" uid="uid://cuail4ohwhwqb" path="res://resources/questions/jericoacoara-CE.tres" id="4_ryxcj"]
+[ext_resource type="Resource" uid="uid://d2212ugtytwfm" path="res://resources/questions/joao_pessoa-PB.tres" id="5_gus28"]
+[ext_resource type="Resource" uid="uid://dwyope08xokak" path="res://resources/questions/local_bonito-MS.tres" id="6_u5eo4"]
+[ext_resource type="Resource" uid="uid://cibmwu12ughne" path="res://resources/questions/maceio-AL.tres" id="7_75hxc"]
+[ext_resource type="Resource" uid="uid://cx48xg2o2nkp3" path="res://resources/questions/peninsula_de_marau-BA.tres" id="8_1ppbk"]
+[ext_resource type="Resource" uid="uid://cfftowmaouhub" path="res://resources/questions/pirenopolis-GO.tres" id="9_t5761"]
+[ext_resource type="Resource" uid="uid://drufjjh8jgg71" path="res://resources/questions/praia_da_pipa-RN.tres" id="10_n2h28"]
 
 [resource]
 script = ExtResource("1_lr2o3")
-theme = Array[Resource("res://scripts/QuizResource.gd")]([ExtResource("2_qrd8q"), ExtResource("3_vym02"), ExtResource("4_aln7x"), ExtResource("5_cxqq6"), ExtResource("6_gsqbe"), ExtResource("7_cd2c1"), ExtResource("8_2aosf"), ExtResource("9_fi0w8"), ExtResource("10_k0ec0"), ExtResource("11_u7qro")])
+theme = Array[Resource("res://scripts/quiz_resource.gd")]([ExtResource("1_0lnh0"), ExtResource("2_kr0qm"), ExtResource("3_es7th"), ExtResource("4_ryxcj"), ExtResource("5_gus28"), ExtResource("6_u5eo4"), ExtResource("7_75hxc"), ExtResource("8_1ppbk"), ExtResource("9_t5761"), ExtResource("10_n2h28")])

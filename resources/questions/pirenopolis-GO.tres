@@ -1,9 +1,11 @@
-[gd_resource type="Resource" script_class="QuizQuestion" load_steps=2 format=3 uid="uid://cfftowmaouhub"]
+[gd_resource type="Resource" script_class="QuizQuestion" load_steps=3 format=3 uid="uid://cfftowmaouhub"]
 
-[ext_resource type="Script" path="res://scripts/QuizResource.gd" id="1_n0te1"]
+[ext_resource type="Texture2D" uid="uid://ck2kxfa4a3cwd" path="res://assets/img_pirenopolis.jpg" id="1_ncu4p"]
+[ext_resource type="Script" path="res://scripts/quiz_resource.gd" id="2_7gajd"]
 
 [resource]
-script = ExtResource("1_n0te1")
-question_info = ""
-question_amount = Array[String]([])
-question_correct = ""
+script = ExtResource("2_7gajd")
+question_info = "Where is this place"
+question_image = ExtResource("1_ncu4p")
+question_amount = Array[String](["Errada", "Errada", "Correta", "Errada"])
+question_correct = "Correta"

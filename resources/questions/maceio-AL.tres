@@ -1,9 +1,11 @@
-[gd_resource type="Resource" script_class="QuizQuestion" load_steps=2 format=3 uid="uid://cibmwu12ughne"]
+[gd_resource type="Resource" script_class="QuizQuestion" load_steps=3 format=3 uid="uid://cibmwu12ughne"]
 
-[ext_resource type="Script" path="res://scripts/QuizResource.gd" id="1_xogau"]
+[ext_resource type="Texture2D" uid="uid://qau6ad0xlmwg" path="res://assets/img_maceio.jpeg" id="1_bbl18"]
+[ext_resource type="Script" path="res://scripts/quiz_resource.gd" id="2_jo48w"]
 
 [resource]
-script = ExtResource("1_xogau")
-question_info = ""
-question_amount = Array[String]([])
-question_correct = ""
+script = ExtResource("2_jo48w")
+question_info = "Where is this place"
+question_image = ExtResource("1_bbl18")
+question_amount = Array[String](["Errada", "Errada", "Errada", "Correta"])
+question_correct = "Correta"

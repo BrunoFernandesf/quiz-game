@@ -1,9 +1,11 @@
-[gd_resource type="Resource" script_class="QuizQuestion" load_steps=2 format=3 uid="uid://c4cgafo8t3x2g"]
+[gd_resource type="Resource" script_class="QuizQuestion" load_steps=3 format=3 uid="uid://c4cgafo8t3x2g"]
 
-[ext_resource type="Script" path="res://scripts/QuizResource.gd" id="1_635q6"]
+[ext_resource type="Texture2D" uid="uid://biggmb0i8s2tj" path="res://assets/img_chapada_veadeiros.jpeg" id="1_ifwtc"]
+[ext_resource type="Script" path="res://scripts/quiz_resource.gd" id="2_v6js7"]
 
 [resource]
-script = ExtResource("1_635q6")
-question_info = ""
-question_amount = Array[String]([])
-question_correct = ""
+script = ExtResource("2_v6js7")
+question_info = "Where is this place"
+question_image = ExtResource("1_ifwtc")
+question_amount = Array[String](["Errada", "Errada", "Correta", "Errada"])
+question_correct = "Correta"
