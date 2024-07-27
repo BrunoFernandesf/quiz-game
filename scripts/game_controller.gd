@@ -14,12 +14,33 @@ var correct: int
 func _ready():	
 	for button in $Control/ButtonHolder.get_children():
 		buttons.append(button)
-		
+	
 	quiz_load()
 
 func quiz_load():
+	if(index >= quiz.theme.size()):
+		print("Acabaram as perguntas")
+		return
+	
 	question_label.text = quiz.theme[index].question_info
 	question_image.texture = quiz.theme[index].question_image
-
+	
 	for i in buttons.size():
 		buttons[i].text = quiz.theme[index].question_amount[i]
+		buttons[i].pressed.connect(question_validation.bind(buttons[i]))
+		
+
+func question_validation(button):
+	if(button.text == quiz.theme[index].question_correct):
+		button.modulate = color_right
+	else:
+		button.modulate = color_wrong
+		
+	next_button()	
+	
+func next_button():
+	
+	#index += 1
+	#quiz_load()
+	
+

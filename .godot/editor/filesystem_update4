@@ -9,6 +9,5 @@ res://resources/questions/maceio-AL.tres
 res://resources/questions/peninsula_de_marau-BA.tres
 res://resources/questions/pirenopolis-GO.tres
 res://resources/questions/praia_da_pipa-RN.tres
-res://scripts/game_controller.gd
-res://scripts/themes.gd
 res://resources/themes/locations_brazil.tres
+res://scripts/game_controller.gd
