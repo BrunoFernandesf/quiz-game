@@ -1,13 +1,1 @@
-res://scenes/main.tscn
-res://resources/questions/chapada_diamantina-BA.tres
-res://resources/questions/chapada_dos_veadeiros-GO.tres
-res://resources/questions/fernando_de_noronha-PB.tres
-res://resources/questions/jericoacoara-CE.tres
-res://resources/questions/joao_pessoa-PB.tres
-res://resources/questions/local_bonito-MS.tres
-res://resources/questions/maceio-AL.tres
-res://resources/questions/peninsula_de_marau-BA.tres
-res://resources/questions/pirenopolis-GO.tres
-res://resources/questions/praia_da_pipa-RN.tres
-res://resources/themes/locations_brazil.tres
 res://scripts/game_controller.gd

@@ -36,11 +36,18 @@ func question_validation(button):
 	else:
 		button.modulate = color_wrong
 		
-	next_button()	
+	next_button()
 	
 func next_button():
+	for bt in buttons:
+		bt.pressed.disconnect(question_validation)
+		
+	await get_tree().create_timer(1).timeout
 	
-	#index += 1
-	#quiz_load()
+	for bt in buttons:
+		bt.modulate = Color.WHITE
+	
+	index += 1
+	quiz_load()
 	
 
