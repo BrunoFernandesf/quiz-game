@@ -1,7 +1,9 @@
-TextureRect
+AudioStreamPlayer
 Button
-Panel
 Label
+ColorRect
+TextureRect
+Panel
 VBoxContainer
 Node
 Control
