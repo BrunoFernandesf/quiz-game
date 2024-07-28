@@ -1,5 +1,5 @@
 ea4bc82a6ad023ab7ee23ee620429895
-::res://::1722174798
+::res://::1722190375
 icon.svg::CompressedTexture2D::5737035526554738474::1721999800::1721999806::1::::<><>::
 README.md::TextFile::-1::1722002851::0::1::::<><>::
 ::res://assets/::1722175990
@@ -29,9 +29,9 @@ pirenopolis-GO.tres::Resource/QuizQuestion::5135287272394753989::1722175391::0::
 praia_da_pipa-RN.tres::Resource/QuizQuestion::8394080090151447698::1722175391::0::1::::<><>::uid://cc6m62lanao3::::res://assets/img_praia_pipa.jpg<>res://scripts/quiz_resource.gd
 ::res://resources/themes/::1722175391
 locations_brazil.tres::Resource/QuizTheme::1321083528591190763::1722175391::0::1::::<><>::uid://c3a55iyyt6gp1::::res://resources/questions/chapada_diamantina-BA.tres<>res://scripts/themes.gd<>uid://c4cgafo8t3x2g::::res://resources/questions/chapada_dos_veadeiros-GO.tres<>uid://4bykwvschhfp::::res://resources/questions/fernando_de_noronha-PB.tres<>uid://cuail4ohwhwqb::::res://resources/questions/jericoacoara-CE.tres<>uid://d2212ugtytwfm::::res://resources/questions/joao_pessoa-PB.tres<>uid://dwyope08xokak::::res://resources/questions/local_bonito-MS.tres<>uid://cibmwu12ughne::::res://resources/questions/maceio-AL.tres<>uid://cx48xg2o2nkp3::::res://resources/questions/peninsula_de_marau-BA.tres<>uid://cfftowmaouhub::::res://resources/questions/pirenopolis-GO.tres<>uid://drufjjh8jgg71::::res://resources/questions/praia_da_pipa-RN.tres
-::res://scenes/::1722175926
-main.tscn::PackedScene::2803396151120820955::1722175926::0::1::::<><>::res://scripts/game_controller.gd<>uid://s27b16pfh332::::res://resources/themes/locations_brazil.tres
-::res://scripts/::1722175913
-game_controller.gd::GDScript::-1::1722175913::0::1::::<>Node<>::
+::res://scenes/::1722176118
+main.tscn::PackedScene::2803396151120820955::1722176118::0::1::::<><>::res://scripts/game_controller.gd<>uid://s27b16pfh332::::res://resources/themes/locations_brazil.tres<>uid://cmsa8kn8c4dig::::res://assets/correct.mp3<>uid://c27snvx1d88gg::::res://assets/incorrect.mp3
+::res://scripts/::1722176084
+game_controller.gd::GDScript::-1::1722176084::0::1::::<>Node<>::
 quiz_resource.gd::GDScript::-1::1722011054::0::1::::QuizQuestion<>Resource<>::
 themes.gd::GDScript::-1::1722090557::0::1::::QuizTheme<>Resource<>::

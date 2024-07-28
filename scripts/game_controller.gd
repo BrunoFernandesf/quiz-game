@@ -16,14 +16,18 @@ var score: int
 func _ready():	
 	for button in $Control/ButtonHolder.get_children():
 		buttons.append(button)
-	
+		
+	array_randomize(quiz.theme)
+		
 	quiz_load()
 
-func quiz_load():
+func quiz_load():		
 	if(index >= quiz.theme.size()):
-		print("Acabaram as perguntas")
+		print("No more questions")
 		game_over()
 		return
+		
+	array_randomize(quiz.theme[index].question_amount)
 	
 	question_label.text = quiz.theme[index].question_info
 	question_image.texture = quiz.theme[index].question_image
@@ -61,3 +65,10 @@ func game_over():
 
 func _on_button_pressed():
 	get_tree().reload_current_scene()
+	
+func array_randomize(array: Array):
+	var array_temp
+	array_temp = array
+	array_temp.shuffle()
+	return array_temp
+	
